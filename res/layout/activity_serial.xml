@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+		<RadioGroup
+		    android:id="@+id/rdiGrp_sd_0" 
+		    android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+
+		        <RadioButton
+		            android:id="@+id/rdiBtn_sd_0_HEX"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:textSize="12sp"
+		            android:layout_weight="1"
+		            android:textColor="#000000"
+		            android:checked="true"
+		            android:text="HEX" />(Max:0x8000000)
+				    
+		        <RadioButton
+		            android:id="@+id/rdiBtn_sd_1_DEC"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:textSize="12sp"
+		            android:layout_weight="1"
+		            android:textColor="#000000"
+		            android:text="DEC" />(Max:134217728)
+        
+		</RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edt_sd_0"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_sd_1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edt_sd_4"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_sd_5"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_7"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edt_sd_8"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_sd_9"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_10"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_11"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+        </LinearLayout>
+       	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edt_sd_12"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_sd_13"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_14"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_15"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+        </LinearLayout>
+        
+       	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edt_sd_16"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_sd_17"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_18"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/edt_sd_19"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:ems="10" />
+
+        </LinearLayout>
+       	
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_sd_0_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/btn_sd_1_clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/btn_sd_2_cmds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CMDs" />
+
+        <Button
+            android:id="@+id/btn_sd_3_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+Add" />
+
+    </LinearLayout>
+    
+    <ScrollView
+        android:id="@+id/sclV_sd_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="#aaaaaa"
+        android:overScrollMode="always"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_sd_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Console" />
+
+            <TextView
+                android:id="@+id/txt_sd_1_console"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text=" " />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

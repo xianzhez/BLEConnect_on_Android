@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_0_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1.设置数据间隔："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_0_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PM："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_0_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_0_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_0_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_0_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VOC："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_0_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_0_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UC："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_0_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_0_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="温湿度："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_0_4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_0_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="电量："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_0_5"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_0_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="上传："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_0_6"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_0_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:text="SET" 
+                    android:textSize="13sp"/>
+
+                <Button
+                    android:id="@+id/btn_cal_0_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+           	android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.显示模块自检:"
+                android:textSize="15sp"  />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_1_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:text="自检"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.出厂设置:"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_2_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="设置" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4.超标及其回差:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/TextView0888"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PM超标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/TextView0666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM超标回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/TextView08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM超标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_3_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM超标回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VOC超标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VOC超标回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_5"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/TextView07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UV超标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_6"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/TextView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UV超标回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_3_7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_3_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_3_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_4_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="5.危险及其回差:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PM危险："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM危险回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM危险："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM危险回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VOC危险："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VOC危险回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_5"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UV危险："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_6"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_4_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UV危险回差："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_4_7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_4_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_4_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_5_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="6.PM校准参数KB"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_5_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="K值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_5_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_5_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_5_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_5_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_5_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_6_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="7.EM的校准参数1-4："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_5"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_6"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_6_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_6_7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_6_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_6_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_7_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="8.EM的校准参数5-8："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_5"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_6"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_7_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_7_7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_7_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_7_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_8_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="9.VOC的校准参数1-4："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_5"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_6"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_8_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_8_7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_8_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_8_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_9_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="10.VOC的校准参数5-8："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_9_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_9_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_9_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_9_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_9_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6点X坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_9_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_9_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6点Y坐标："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_9_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_9_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_9_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_10_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="11.TH校准参数KB:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_10_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="K值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_10_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_10_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_10_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_10_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_10_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_11_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="12.ADXL345的检测阈值:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_11_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="检测阈值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_11_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_11_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_11_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_12_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="13.设置指示灯开启和关闭:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_12_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="ON" />
+
+                <Button
+                    android:id="@+id/btn_cal_12_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="OFF" />
+            </LinearLayout>
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cal_13_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="14.原始采样值"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_13_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PM的AD值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_13_0"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_13_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EM的AD值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_13_1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_13_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:maxWidth="80dp"
+                        android:text="电量采集的AD值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_13_2"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_13_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:maxWidth="80dp"
+                        android:text="VOC传感器预测值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_13_3"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_13_4"
+                        android:maxWidth="80dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="VOC传感器电阻值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_13_4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" 
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_cal_13_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:maxWidth="80dp"
+                        android:text="扩大100倍的温度值："
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_13_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/txt_cal_13_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="扩大10倍校准后湿度值："
+                        android:maxWidth="80dp"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_cal_13_6"
+                        android:layout_width="wrap_content"
+                        android:minWidth="80dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_cal_13_0"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:visibility="invisible"
+                    android:text="SET" />
+
+                <Button
+                    android:id="@+id/btn_cal_13_1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:text="QUERY" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+
+</ScrollView>

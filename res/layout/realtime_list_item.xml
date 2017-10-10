@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txt_rt_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Name"
+                android:textColor="#000000"
+                android:layout_alignParentLeft="true"
+                android:textSize="20sp" 
+                android:layout_centerVertical="true"/>
+
+            <EditText
+                android:id="@+id/edt_rt_0_0"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textCursorDrawable="@null"
+                android:textSize="18sp" 
+                android:layout_alignRight="@+id/btn_rt_rt_auto"
+                android:layout_marginRight="75dp"
+                android:layout_centerVertical="true"
+                android:hint="单位:s">
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_rt_rt_auto"
+                android:layout_width="70dp"
+                android:layout_height="23dp"
+                android:text="Auto"
+                android:textSize="11sp" 
+                android:textColor="#000000"
+                android:background="#cccccc"
+                android:layout_marginRight="75dp"
+                android:layout_alignRight="@+id/btn_rt_refresh"
+                android:layout_centerVertical="true"/>
+
+            <Button
+                android:id="@+id/btn_rt_refresh"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="Refresh"
+                android:textSize="11sp" 
+                android:textColor="#000000"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textColor="#000000">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PM  :" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_PM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EM  :" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_EM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOC :" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_VOC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UV  :" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_UV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="湿度 ：" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_HUM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温度 ：" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_TEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电池电压：" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_V"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="报警等级：" 
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txt_rt_item_LVL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" 
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
